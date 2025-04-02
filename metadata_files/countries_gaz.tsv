@@ -1,0 +1,298 @@
+Country	GENPIO
+Afghanistan	GAZ:00006882
+Albania	GAZ:00002953
+Algeria	GAZ:00000563
+American Samoa	NCIT:C17740
+Andorra	GAZ:00002948
+Angola	GAZ:00001095
+Anguilla	GAZ:00009159
+Antarctica	SNOMED:438122005
+Antigua and Barbuda	VBO:0013275
+Arctic Ocean	SNOMED:284564007
+Argentina	GAZ:00002928
+Armenia	GAZ:00004094
+Aruba	NCBITaxon:1654679
+Ashmore and Cartier Islands	NCIT:C20106
+Atlantic Ocean	GAZ:00051082
+Australia	GAZ:00000463
+Austria	GAZ:00002942
+Azerbaijan	GAZ:00004941
+Bahamas	NCBITaxon:255487
+Bahrain	GAZ:00005281
+Baltic Sea	SNOMED:297467007
+Baker Island	GAZ:00133238
+Bangladesh	GAZ:00003750
+Barbados	GAZ:00001251
+Bassas da India	ENVO:01001598
+Belarus	VBO:0006632
+Belgium	GAZ:00002938
+Belize	GAZ:00002934
+Benin	GAZ:00000904
+Bermuda	GAZ:00001264
+Bhutan	SNOMED:315385008
+Bolivia	NCIT:C16359
+Borneo	NCBITaxon:375522
+Bosnia and Herzegovina	VBO:0003131
+Botswana	GAZ:00001097
+Bouvet Island	SNOMED:288560006
+Brazil	GAZ:00002828
+British Virgin Islands	VBO:0015304
+Brunei	VTO:0062894
+Bulgaria	GAZ:00002950
+Burkina Faso	GAZ:00000905
+Burundi	GAZ:00001090
+Cambodia	GAZ:00006888
+Cameroon	GAZ:00001093
+Canada	Canada
+Cape Verde	NCIT:C16382
+Cayman Islands	NCBITaxon:112559
+Central African Republic	VBO:0006652
+Chad	1909
+Chile	GAZ:00002825
+China	GAZ:00002845
+Christmas Island	FOODON:03307094
+Clipperton Island	VTO:0068527
+Cocos Islands	NCBITaxon:1445692
+Colombia	GAZ:00002929
+Comoros	SNOMED:223533006
+Cook Islands	VBO:0003033
+Coral Sea Islands	GAZ:00008996
+Costa Rica	GAZ:00002901
+Cote d'Ivoire	NCBITaxon:1886530
+Croatia	GAZ:00002719
+Cuba	GAZ:00003762
+Curacao	TTO:1016734
+Cyprus	COUNTRY:CY
+Czechia	VBO:0003633
+Democratic Republic of the Congo	NCIT:C17266
+Denmark	VBO:0002356
+Djibouti	GAZ:00000582
+Dominica	NCBITaxon:1520022
+Dominican Republic	GAZ:00003952
+Ecuador	GAZ:00002912
+Egypt	GAZ:00003934
+El Salvador	GAZ:00002935
+Equatorial Guinea	GAZ:00001091
+Eritrea	VBO:0002246
+Estonia	GAZ:00002959
+Eswatini	VBO:0003419
+Ethiopia	GAZ:00000567
+Europa Island	VBO:0004711
+Falkland Islands (Islas Malvinas)	VBO:0008451
+Faroe Islands	VBO:0001412
+Fiji	GAZ:00006891
+Finland	GAZ:00002937
+France	NCIT:C47871
+French Guiana	NCBITaxon:1317642
+French Polynesia	GAZ:02000540
+French Southern and Antarctic Lands	NCIT:C43854
+Gabon	GAZ:00001092
+Gambia	VBO:0004828
+Gaza Strip	NCIT:C42865
+Georgia	GAZ:00004942
+Germany	GAZ:00002646
+Ghana	GAZ:00000908
+Gibraltar	GAZ:00003987
+Glorioso Islands	NCIT:C123769
+Greece	GAZ:00002945
+Greenland	SNOMED:132512002
+Grenada	GAZ:02000573
+Guadeloupe	VBO:0002798
+Guam	NCBITaxon:2821502
+Guatemala	GAZ:00002936
+Guernsey	VBO:0002980
+Guinea	GAZ:00000909
+Guinea-Bissau	GAZ:00000910
+Guyana	GAZ:00002522
+Haiti	GAZ:00003953
+Heard Island and McDonald Islands	GAZ:00009719
+Honduras	GAZ:00002894
+Hong Kong	GAZ:00003203
+Howland Island	GAZ:00154006
+Hungary	GAZ:00002952
+Iceland	GAZ:00000843
+India	GAZ:00002839
+Indian Ocean	FOODON:03520142
+Indonesia	GAZ:00003727
+Iran	GAZ:00004474
+Iraq	GAZ:00004483
+Ireland	SNOMED:315448004
+Isle of Man	VBO:0100125
+Israel	GAZ:00002476
+Italy	GAZ:00002650
+Jamaica	GAZ:00003781
+Jan Mayen	NCBITaxon:1648975
+Japan	GAZ:00002747
+Jarvis Island	GAZ:00200470
+Jersey	VBO:0003342
+Johnston Atoll	NCIT:C109628
+Jordan	GAZ:00002473
+Juan de Nova Island	SNOMED:37621001
+Kazakhstan	SNOMED:315455002
+Kenya	GAZ:00001101
+Kerguelen Archipelago	TTO:1008879
+Kingman Reef	ENVO:01000147
+Kiribati	GAZ:00006894
+Kosovo	VBO:0007764
+Kuwait	SNOMED:262420007
+Kyrgyzstan	GAZ:00006893
+Laos	NCIT:C16780
+Latvia	GAZ:00002958
+Lebanon	GAZ:00002478
+Lesotho	GAZ:00001098
+Liberia	GAZ:00000911
+Libya	GAZ:00000566
+Liechtenstein	SNOMED:315467000
+Line Islands	GAZ:00009605
+Lithuania	GAZ:00002960
+Luxembourg	GAZ:00002947
+Macau	NCBITaxon:2503014
+Madagascar	GAZ:00001108
+Malawi	GAZ:00001105
+Malaysia	GAZ:00003902
+Maldives	VBO:0006077
+Mali	GAZ:00000584
+Malta	GAZ:00004017
+Marshall Islands	GAZ:00051589
+Martinique	VBO:0014470
+Mauritania	GAZ:00000583
+Mauritius	NCBITaxon:1966384
+Mayotte	GAZ:00003943
+Mediterranean Sea	ENVO:01000857
+Mexico	GAZ:00002852
+Micronesia, Federated States of	OMIT:0027491
+Midway Islands	NCBITaxon:2564788
+Moldova	NCIT:C16871
+Monaco	SNOMED:315481003
+Mongolia	GAZ:00008744
+Montenegro	NCBITaxon:1338360
+Montserrat	SNOMED:223391009
+Morocco	GAZ:00000565
+Mozambique	GAZ:00001100
+Myanmar	VBO:0002109
+Namibia	GAZ:00001096
+Nauru	NCIT:C154044
+Navassa Island	GO:1990342
+Nepal	GAZ:00004399
+Netherlands	VBO:0001977
+New Caledonia	GAZ:00005206
+New Zealand	GAZ:00000469
+Nicaragua	GAZ:00002978
+Niger	GAZ:00000585
+Nigeria	GAZ:00000912
+Niue	GAZ:00006902
+Norfolk Island	NCBITaxon:25664
+North Korea	SNOMED:315492002
+North Macedonia	VBO:0012310
+North Sea	NCBITaxon:82913
+Northern Mariana Islands	VBO:0012107
+Norway	GAZ:00002699
+Oman	GAZ:00005283
+Pacific Ocean	NCBITaxon:1348134
+Pakistan	GAZ:00005246
+Palau	SNOMED:297581007
+Palmyra Atoll	NCBITaxon:1713830
+Panama	GAZ:00002892
+Papua New Guinea	GAZ:00003922
+Paracel Islands	NCIT:C16391
+Paraguay	GAZ:00002933
+Peru	GAZ:00002932
+Philippines	NCBITaxon:2652322
+Pitcairn Islands	GAZ:00005867
+Poland	GAZ:00002939
+Portugal	VBO:0002189
+Puerto Rico	SNOMED:315505007
+Qatar	SNOMED:315506008
+Republic of the Congo	VBO:0002327
+Reunion	GENEPIO:0100244
+Romania	GAZ:00002951
+Ross Sea	ENVO:00000016
+Russia	SNOMED:315510006
+Rwanda	GAZ:00001087
+Saint Barthelemy	GAZ:00347640
+Saint Helena	NCBITaxon:1464842
+Saint Kitts and Nevis	VBO:0008653
+Saint Lucia	VBO:0002802
+Saint Martin	GAZ:00428742
+Saint Pierre and Miquelon	GAZ:00146448
+Saint Vincent and the Grenadines	SNOMED:223710007
+Samoa	NCIT:C17739
+San Marino	SNOMED:315512003
+Sao Tome and Principe	VBO:0002538
+Saudi Arabia	GAZ:00005279
+Senegal	GAZ:00000913
+Serbia	SNOMED:735204006
+Seychelles	VBO:0003420
+Sierra Leone	GAZ:00000914
+Singapore	GAZ:00003923
+Sint Maarten	TTO:1014113
+Slovakia	VBO:0002762
+Slovenia	GAZ:00002955
+Solomon Islands	VBO:0002317
+Somalia	GAZ:00001104
+South Africa	GAZ:00000553
+South Georgia and the South Sandwich Islands	GAZ:00139848
+South Korea	SNOMED:315525006
+South Sudan	GAZ:00233439
+Southern Ocean	ENVO:00000275
+Spain	SNOMED:315526007
+Spratly Islands	OMIT:0028072
+Sri Lanka	GAZ:00003924
+State of Palestine	AFO:/quality#AFQ_0000111
+Sudan	GAZ:00000560
+Suriname	SNOMED:315532002
+Svalbard	GAZ:00340886
+Sweden	GAZ:00002729
+Switzerland	GAZ:00002941
+Syria	NCIT:C17182
+Taiwan	GAZ:00005341
+Tajikistan	SNOMED:315538003
+Tanzania	GAZ:00001103
+Tasman Sea	SNOMED:726749009
+Thailand	GAZ:00003744
+Timor-Leste	SNOMED:223746003
+Togo	GAZ:00000915
+Tokelau	NCIT:C154169
+Tonga	GAZ:00006916
+Trinidad and Tobago	GAZ:00003767
+Tromelin Island	ENVO:03501242
+Tunisia	GAZ:00000562
+Turkey	GAZ:00000558
+Turkmenistan	SNOMED:315548001
+Turks and Caicos Islands	HANCESTRO:0427
+Tuvalu	VBO:0012013
+Uganda	GAZ:00001102
+Ukraine	GAZ:00002724
+United Arab Emirates	SNOMED:315553006
+United Kingdom	GAZ:00002637
+Uruguay	GAZ:00002930
+USA	NCBITaxon:2570568
+Uzbekistan	SNOMED:315555004
+Vanuatu	GAZ:00006918
+Venezuela	NCIT:C17250
+Viet Nam	VBO:0002135
+Virgin Islands	EFO:0002951
+Wake Island	NCIT:C109669
+Wallis and Futuna	GAZ:00007191
+West Bank	ENVO:00000141
+Western Sahara	NCBITaxon:3059747
+Yemen	SNOMED:315590007
+Zambia	GAZ:00001107
+Zimbabwe	GAZ:00001106
+Belgian Congo	NCIT:C165312
+British Guiana	HANCESTRO:0462
+Burma	Myanmar
+Czechoslovakia	NCBITaxon:385590
+Czech Republic	NCIT:C17668
+East Timor	VTO:0016868
+Korea	NCBITaxon:194666
+Macedonia	VBO:0004153
+Micronesia	GAZ:00002390
+Netherlands Antilles	SNOMED:223389001
+Serbia and Montenegro	NCBITaxon:1338360
+Siam	NCBITaxon:2793485
+Swaziland	GAZ:00001099
+The former Yugoslav Republic of Macedonia	NCIT:C17266
+USSR	NCBITaxon:62596
+Yugoslavia	GAZ:00052663
+Zaire	VO:0010864

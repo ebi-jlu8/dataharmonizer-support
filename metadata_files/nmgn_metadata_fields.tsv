@@ -1,0 +1,59 @@
+category	field_name	field_format	field_restriction	validation	range_options	units	requirement	description	comments	examples	field_uri	exact_mappings
+study	project name		text field	text field		 	mandatory	primary project accession within which the sequencing was organised (e.g. PRJEB12345) 	"any additional comments, can have multiple, seperated by commas"	PRJEBXXXXX	GENEPIO:0100429	ENA_host_associated:project name
+study	study_title		text field	text field			mandatory	Name of the study	"any additional comments, can have multiple, seperated by commas"	NMGN SYK project	GENEPIO:0000000	ENA_host_associated:study_title
+sample	tax_id		text field	text field	tax_id_menu		mandatory	Taxonomy ID of the organism as in the NCBI Taxonomy database. Entries in the NCBI Taxonomy database have integer taxon IDs.	"any additional comments, can have multiple, seperated by commas"	410661	GENEPIO:0001640	ENA_host_associated:tax_id
+sample	scientific_name		text field	text field			mandatory	"Scientific name of the organism as in the NCBI Taxonomy database. Scientific names typically follow the binomial nomenclature. For examle, fecal samples collected from the mouse gut is 'mouse gut metagenome' with the corresponding tax id 410661."	"any additional comments, can have multiple, seperated by commas"	mouse gut metagenome	NCBITaxon:410661	ENA_host_associated:scientific_name
+sample	sample_alias		text field	text field			mandatory	Unique name of the sample. If not selected system will automatically use the ENA sample accession as the sample ID 	"any additional comments, can have multiple, seperated by commas"	syk mouse gut sample 1	GENEPIO:0100427	ENA_host_associated:sample_alias
+sample	sample_title		text field	text field			mandatory	title of the sample	"any additional comments, can have multiple, seperated by commas"	mouse sample 1	GENEPIO:0001808	ENA_host_associated:sample_title
+sample	sample_description		text field	text field			mandatory	description of the sample	"any additional comments, can have multiple, seperated by commas"	fecal sample collected from syk mouse gut	GENEPIO:0100439	ENA_host_associated:sample_description
+sample	collection date		text field	restricted text			mandatory	"The date the sample was collected with the intention of sequencing, either as an instance (single point in time) or interval. In case no exact time is available, the date/time can be right truncated i.e. all of these are valid ISO8601 compliant times: 2008-01-23T19:23:10+00:00; 2008-01-23T19:23:10; 2008-01-23; 2008-01; 2008."	"any additional comments, can have multiple, seperated by commas"	2008-01-23	GENEPIO:0001174	ENA_host_associated:collection date
+sample	collection start time		text field	restricted text			recommended	start time of sample collection	"any additional comments, can have multiple, seperated by commas"		GENEPIO:0000000	ENA_host_associated:collection start time
+sample	collection end time		text field	restricted text			recommended	end time of sample collection	"any additional comments, can have multiple, seperated by commas"		GENEPIO:0000000	ENA_host_associated:collection end time
+sample	sample amount		text field	restricted text		g	recommended	amount or size of sample collected	"any additional comments, can have multiple, seperated by commas"	1900-01-02	GENEPIO:0000000	ENA_host_associated:sample amount
+location	geographic location (country and/or sea)						mandatory	"The geographical origin of where the sample was collected from, with the intention of sequencing, as defined by the country or sea name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html)."	"any additional comments, can have multiple, seperated by commas"	United Kingdom	GENEPIO:0100629	ENA_host_associated:geographic location (country and/or sea)
+location	geographic location (latitude)					DD	recommended	The geographical origin of the sample as defined by latitude. The values should be reported in decimal degrees and in WGS84 system	"any additional comments, can have multiple, seperated by commas"	51.75314817	GENEPIO:0100309	ENA_host_associated:geographic location (latitude)
+location	geographic location (longitude)					DD	recommended	The geographical origin of the sample as defined by longitude. The values should be reported in decimal degrees and in WGS84 system	"any additional comments, can have multiple, seperated by commas"	-1.214122657	GENEPIO:0100310	ENA_host_associated:geographic location (longitude)
+sample	broad-scale environmental context		text field	text field			mandatory	"Report the major environmental system the sample or specimen came from. The system(s) identified should have a coarse spatial grain, to provide the general environmental context of where the sampling was done (e.g. in the desert or a rainforest). We recommend using subclasses of EnvO’s biome class: http://purl.obolibrary.org/obo/ENVO_00000428. EnvO documentation about how to use the field: https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS."	"any additional comments, can have multiple, seperated by commas"	host-associated	GENEPIO:0000027	ENA_host_associated:broad-scale environmental context
+sample	local environmental context		text field	text field			mandatory	"Report the entity or entities which are in the sample or specimen’s local vicinity and which you believe have significant causal influences on your sample or specimen. We recommend using EnvO terms which are of smaller spatial grain than your entry for ""broad-scale environmental context"". Terms, such as anatomical sites, from other OBO Library ontologies which interoperate with EnvO (e.g. UBERON) are accepted in this field. EnvO documentation about how to use the field: https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS."	"any additional comments, can have multiple, seperated by commas"	mouse digestive system	GENEPIO:0000027	ENA_host_associated:local environmental context
+sample	environmental medium		text field	text field			mandatory	"Report the environmental material(s) immediately surrounding the sample or specimen at the time of sampling. We recommend using subclasses of 'environmental material' (http://purl.obolibrary.org/obo/ENVO_00010483). EnvO documentation about how to use the field: https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS . Terms from other OBO ontologies are permissible as long as they reference mass/volume nouns (e.g. air, water, blood) and not discrete, countable entities (e.g. a tree, a leaf, a table top)."	"any additional comments, can have multiple, seperated by commas"	gut	GENEPIO:0000027	ENA_host_associated:environmental medium
+sample	sample material processing		text field	text field			recommended	method used for processing sample materials.	"any additional comments, can have multiple, seperated by commas"		GENEPIO:0001150	ENA_host_associated:sample material processing
+host	host common name		text field	text field			recommended	common name of the host (e.g. house mouse)	"any additional comments, can have multiple, seperated by commas"	house mouse	GENEPIO:0001386	ENA_host_associated:host common name
+host	host subject id		text field	text field			recommended	a unique identifier by which each subject can be referred to (e.g. #131)	"any additional comments, can have multiple, seperated by commas"	#131	GENEPIO:0001398	ENA_host_associated:host subject id
+host	host age		text field	restricted text		days	mandatory	age of host at the time of sampling shown in days (for NMGN mouse). 	"any additional comments, can have multiple, seperated by commas"	54	GENEPIO:0001392	ENA_host_associated:host age
+host	host taxid		text field	restricted text			recommended	NCBI taxon ID of the host (e.g. 10090  for mus musculus)	"any additional comments, can have multiple, seperated by commas"	10090	GENEPIO:0100628	ENA_host_associated:host taxid
+host	host body site		text field	text field			recommended	name of the body site the sample was collected from	"any additional comments, can have multiple, seperated by commas"	large intestine	PRIDE:0000685	ENA_host_associated:host body site
+host	host total mass		text field	restricted text		g	recommended	total mass of the host  (in grams) at the time of sample collection.	"any additional comments, can have multiple, seperated by commas"	21	PRIDE:0000687	ENA_host_associated:host total mass
+host	host color		text field	text field			recommended	the color of the host	"any additional comments, can have multiple, seperated by commas"	black	GENEPIO:0000000	ENA_host_associated:host color
+host	host sex		text choice	text field	host_sex_options		mandatory	gender or sex of the host	"any additional comments, can have multiple, seperated by commas"	female	GENEPIO:0001395	ENA_host_associated:host sex
+host	host scientific name		text field	text field			mandatory	scientific name of the host the sample was obtained from (e.g. Mus musculus)	"any additional comments, can have multiple, seperated by commas"	Mus musculus	GENEPIO:0001387	ENA_host_associated:host scientific name
+host	host diet		text field	text field			recommended	type of diet given to the host	"any additional comments, can have multiple, seperated by commas"	chow	EUPATH:0000590	ENA_host_associated:host diet
+host	host body product		text field	text field			recommended	"substance (of the sample) produced by the body (e.g. stool, mucus)"	"any additional comments, can have multiple, seperated by commas"	feces	GENEPIO:0000000	ENA_host_associated:host body product
+host	acclimation protocol		text field	text field			optional	"if host was imported, the acclimitization protocol used"	"any additional comments, can have multiple, seperated by commas"	https://jordbruksverket.se/download/18.2973671e191b5a0f12c1770e/1725968915108/Acclimatisation-of-mice-prior-to-experiments-support-material-from-the-Swedish-3Rs-Center-tga.pdf	GENEPIO:0000000	ENA_host_associated:acclimation protocol
+host	rederivation protocol		text field	text field								ENA_host_associated:rederivation protocol
+host	breeding community total enclosures											
+host	chemical administration											
+study	consortium_name											
+host	animal receipt date		text field	restricted text			optional	the date the sampled animal was purchased from vendor	"any additional comments, can have multiple, seperated by commas"		GENEPIO:0000000	
+host	host diet											
+host	diet vendor											
+enclosure	enclosure bedding											
+enclosure	Enclosure ID											
+enclosure	enclosure type											
+enclosure	environmental enrichment											
+facility	lab animal facility											
+host	genetic modification											
+host	host phenotype											
+host	host source											
+host	host supplier											
+host	number of generations since colony refreshment											
+sample	oxygen exposure duration											
+host	refreshment method											
+sample	sample collection method											
+sample	sample storage duration											
+sample	sample storage location											
+sample	sample storage temperature											
+sample	sample volume or weight for DNA extraction											
+host	time of last refreshment											
+host	total number of breeding females											
+host	total number of lab animal in enclosure											
+host	water treatment											
